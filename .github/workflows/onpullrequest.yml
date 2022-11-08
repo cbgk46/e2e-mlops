@@ -46,4 +46,4 @@ jobs:
 
       - name: Run integration test [staging environment]
         run: |
-          dbx launch --job=STAGING-telco-churn-sample-integration-test --environment=staging --as-run-submit --trace
+          dbx execute --cluster-id=0804-014749-gexpq4zf STAGING-telco-churn-sample-integration-test --environment=staging 
