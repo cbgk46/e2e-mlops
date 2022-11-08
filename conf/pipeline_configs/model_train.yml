@@ -1,7 +1,6 @@
 mlflow_params:
-  run_name: 'random_forest_baseline_devtest'
-
-
+  run_name: 'random_forest_baseline_modeltest'
+  
 pipeline_params:
   test_size: 0.25
   random_state: 42
